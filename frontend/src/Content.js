@@ -12,7 +12,7 @@ const Content = (props) => {
         }
     }
     
-    return getContent(props.tab);
+    return <div className={props.className}>{getContent(props.tab)}</div>;
 }
 
 export default Content;

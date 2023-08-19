@@ -8,10 +8,12 @@
 
 .main-container-left {
     width: 20%;
+    height: 30%;
 }
 
 .main-container-right {
     width: 80%;
+    border: 1px solid black;
 }
 
 .app{
