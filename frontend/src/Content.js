@@ -1,14 +1,14 @@
-import Category from "./Category";
-import Another from "./Another";
+import CategoryApp from "./Category";
+import AnotherApp from "./Another";
 
 const Content = (props) => {
 
     const getContent = (tab) => {
         if (tab=="category"){
-            return <Category />
+            return <CategoryApp />
         }
         else if (tab=="second"){
-            return <Another />
+            return <AnotherApp />
         }
     }
     

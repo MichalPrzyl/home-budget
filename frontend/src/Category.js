@@ -1,7 +1,14 @@
-const Category = (props) => {
+import Buttons from './Category/Buttons'
+
+const CategoryApp = (props) => {
 
 
-    return <h1>Category page</h1>
+    return (
+        <div className="app">
+            <Buttons />
+            {/* <Table></Table> */}
+        </div>
+    )
 }
 
-export default Category;
+export default CategoryApp;

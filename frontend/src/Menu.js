@@ -1,4 +1,3 @@
-import Category from "./Category";
 
 const Menu = (props) => {
     const changeTab = (e) => {

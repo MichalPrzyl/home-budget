@@ -1,7 +1,7 @@
-const Another = (props) => {
+const AnotherApp = (props) => {
 
 
     return <h1>Another page</h1>
 }
 
-export default Another;
+export default AnotherApp;

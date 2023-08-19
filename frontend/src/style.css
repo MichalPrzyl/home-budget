@@ -13,3 +13,12 @@
 .main-container-right {
     width: 80%;
 }
+
+.app{
+    padding: 30px;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 50px;
+}
