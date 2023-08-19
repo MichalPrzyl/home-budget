@@ -1,0 +1,15 @@
+.main-container {
+    display: flex;
+}
+
+.main-container-element {
+    border: 1px solid black;
+}
+
+.main-container-left {
+    width: 20%;
+}
+
+.main-container-right {
+    width: 80%;
+}
