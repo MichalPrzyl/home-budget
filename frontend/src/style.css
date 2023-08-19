@@ -1,3 +1,10 @@
+html{
+    color: #B9929F;
+}
+
+/* body{
+    background: red;
+} */
 .main-container {
     display: flex;
 }
@@ -10,8 +17,11 @@
     width: 20%;
     height: 30%;
     padding: 20px;
-    /* background: #610F7F; */
+    background: linear-gradient(-90deg, rgba(156,82,139,1) 0%, rgba(97,15,127,1) 100%);
+
     color: #E2C2C6;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px black;
 }
 
 .main-container-right {
@@ -28,7 +38,7 @@
     gap: 50px;
 }
 
-.btn{
+.menu-btn{
     padding: 15px;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -37,7 +47,10 @@
     background: linear-gradient(90deg, rgba(156,82,139,1) 0%, rgba(97,15,127,1) 100%);
 }
 
-.btn:hover{
+.menu-btn:hover{
     cursor: pointer;
     background: linear-gradient(90deg, rgb(167, 127, 157) 0%, rgba(97,15,127,1) 100%);
+}
+.app-container{
+    background: #2F0147;
 }

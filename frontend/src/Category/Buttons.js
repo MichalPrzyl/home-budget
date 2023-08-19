@@ -7,6 +7,7 @@ const Buttons = (props) => {
 
     const handleAddCategory = async () => {
         const sendData = {name: nameInput}
+        if (nameInput === "") return;
         const response = await axios.post('http://127.0.0.1:8000/category', sendData)
         setNameInput("");
         props.getData()
