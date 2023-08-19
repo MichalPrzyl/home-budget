@@ -9,6 +9,9 @@
 .main-container-left {
     width: 20%;
     height: 30%;
+    padding: 20px;
+    /* background: #610F7F; */
+    color: #E2C2C6;
 }
 
 .main-container-right {
@@ -23,4 +26,18 @@
 .button-wrapper{
     display: flex;
     gap: 50px;
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 2px black;
+    transition: 0.5s;
+    background: linear-gradient(90deg, rgba(156,82,139,1) 0%, rgba(97,15,127,1) 100%);
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(167, 127, 157) 0%, rgba(97,15,127,1) 100%);
 }
